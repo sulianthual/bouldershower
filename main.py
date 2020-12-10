@@ -25,37 +25,37 @@ screen = pygame.display.set_mode((800, 600))# Define screen
 font = pygame.font.Font('freesansbold.ttf', 15)# text fonts
 fontbig = pygame.font.Font('freesansbold.ttf', 30)
 
-imgstart = pygame.image.load('bouldershower_imgstart.png')# Load start image
-imgbackground = pygame.image.load('bouldershower_imgbackground.png')# background image
-imgmanual = pygame.image.load('bouldershower_imgmanual.png')# instructions image
-imgdiedoverlay = pygame.image.load('bouldershower_imgdiedoverlay.png')# died overlay 
+imgstart = pygame.image.load('data/bouldershower_imgstart.png')# Load start image
+imgbackground = pygame.image.load('data/bouldershower_imgbackground.png')# background image
+imgmanual = pygame.image.load('data/bouldershower_imgmanual.png')# instructions image
+imgdiedoverlay = pygame.image.load('data/bouldershower_imgdiedoverlay.png')# died overlay 
 
-imgplayer_l= pygame.image.load('bouldershower_imgplayerleft.png')# player image(s)
-imgplayer_r= pygame.image.load('bouldershower_imgplayerright.png')
-imgplayer_u= pygame.image.load('bouldershower_imgplayerup.png')
-imgplayer_d= pygame.image.load('bouldershower_imgplayerdown.png')
-imgplayerhit = pygame.image.load('bouldershower_imgplayerhit.png')
-imgplayerdead = pygame.image.load('bouldershower_imgplayerdead.png')
-imgplayerarrow_l= pygame.image.load('bouldershower_imgplayerarrow_left.png')
-imgplayerarrow_r= pygame.image.load('bouldershower_imgplayerarrow_right.png')
-imgplayerarrow_u= pygame.image.load('bouldershower_imgplayerarrow_up.png')
-imgplayerarrow_d= pygame.image.load('bouldershower_imgplayerarrow_down.png')
-imgplayerarrow_gl= pygame.image.load('bouldershower_imgplayerarrow_grayleft.png')
-imgplayerarrow_gr= pygame.image.load('bouldershower_imgplayerarrow_grayright.png')
-imgplayerarrow_gu= pygame.image.load('bouldershower_imgplayerarrow_grayup.png')
-imgplayerarrow_gd= pygame.image.load('bouldershower_imgplayerarrow_graydown.png')
+imgplayer_l= pygame.image.load('data/bouldershower_imgplayerleft.png')# player image(s)
+imgplayer_r= pygame.image.load('data/bouldershower_imgplayerright.png')
+imgplayer_u= pygame.image.load('data/bouldershower_imgplayerup.png')
+imgplayer_d= pygame.image.load('data/bouldershower_imgplayerdown.png')
+imgplayerhit = pygame.image.load('data/bouldershower_imgplayerhit.png')
+imgplayerdead = pygame.image.load('data/bouldershower_imgplayerdead.png')
+imgplayerarrow_l= pygame.image.load('data/bouldershower_imgplayerarrow_left.png')
+imgplayerarrow_r= pygame.image.load('data/bouldershower_imgplayerarrow_right.png')
+imgplayerarrow_u= pygame.image.load('data/bouldershower_imgplayerarrow_up.png')
+imgplayerarrow_d= pygame.image.load('data/bouldershower_imgplayerarrow_down.png')
+imgplayerarrow_gl= pygame.image.load('data/bouldershower_imgplayerarrow_grayleft.png')
+imgplayerarrow_gr= pygame.image.load('data/bouldershower_imgplayerarrow_grayright.png')
+imgplayerarrow_gu= pygame.image.load('data/bouldershower_imgplayerarrow_grayup.png')
+imgplayerarrow_gd= pygame.image.load('data/bouldershower_imgplayerarrow_graydown.png')
 
-imgboulder = pygame.image.load('bouldershower_imgboulder.png')# enemy image(s)
-imgboulderwarning = pygame.image.load('bouldershower_imgboulderwarning.png')
-imgbouldersmoke = pygame.image.load('bouldershower_imgbouldersmoke.png')
-imgbouldercrack = pygame.image.load('bouldershower_imgbouldercrack.png')
-imgboulderdestroy = pygame.image.load('bouldershower_imgboulderdestroy.png')
+imgboulder = pygame.image.load('data/bouldershower_imgboulder.png')# enemy image(s)
+imgboulderwarning = pygame.image.load('data/bouldershower_imgboulderwarning.png')
+imgbouldersmoke = pygame.image.load('data/bouldershower_imgbouldersmoke.png')
+imgbouldercrack = pygame.image.load('data/bouldershower_imgbouldercrack.png')
+imgboulderdestroy = pygame.image.load('data/bouldershower_imgboulderdestroy.png')
 
-mixer.music.load("bouldershower_soundbackgroundmusic.mp3")# music and sounds
-playersounddash = mixer.Sound("bouldershower_sounddash.wav")# when moving
-playersoundbreak = mixer.Sound("bouldershower_soundbreak.wav")# when breaking
-playersounddeath = mixer.Sound("bouldershower_sounddeath.wav")# when hit
-playersounddeathfinal = mixer.Sound("bouldershower_sounddeathfinal.wav")# when dead
+mixer.music.load("data/bouldershower_soundbackgroundmusic.mp3")# music and sounds
+playersounddash = mixer.Sound("data/bouldershower_sounddash.wav")# when moving
+playersoundbreak = mixer.Sound("data/bouldershower_soundbreak.wav")# when breaking
+playersounddeath = mixer.Sound("data/bouldershower_sounddeath.wav")# when hit
+playersounddeathfinal = mixer.Sound("data/bouldershower_sounddeathfinal.wav")# when dead
 
 mixer.music.set_volume(0.6)# set volume (default=1?)
 playersounddash.set_volume(1)
