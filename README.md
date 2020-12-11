@@ -3,7 +3,7 @@
 
 <h4>Boulder Shower</h4>
 
-code by Sulian Thual 
+code by Sulian Thual (2019)
 
 Extremely simple arcade game. Created to learn python and pygame.
 

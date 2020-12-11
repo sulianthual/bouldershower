@@ -1,6 +1,6 @@
 # Boulder Shower
 # Game by Sulian Thual
-# January 2020
+# Nov 2019
 # runs with pygame 1.9.4
 
 ##########################################################
