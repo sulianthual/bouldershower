@@ -1,16 +1,16 @@
 
-![alt text](https://github.com/sulianthual/bouldershower/blob/main/screenshot.png?raw=true "Screenshot")
+![alt text](screenshot.png?raw=true "Screenshot")
 
-Boulder Shower
+<h4>Boulder Shower</h4>
 
-created by Sulian Thual 
+code by Sulian Thual 
 
 Extremely simple arcade game. Created to learn python and pygame.
 
-Sources:
-github: https://github.com/sulianthual/bouldershower
+references: https://github.com/sulianthual/bouldershower
 
-Instructions: 
+<h4>Instructions: </h4>
+
 1) You need python 3 installed as well as python module: pygame. 
 
 
