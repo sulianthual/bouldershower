@@ -7,7 +7,9 @@ code by Sulian Thual (2019)
 
 Extremely simple arcade game. Created to learn python and pygame.
 
-references: https://github.com/sulianthual/bouldershower
+website: https://sulianthual.github.io/bouldershower/
+
+source code: https://github.com/sulianthual/bouldershower
 
 download: [link](https://github.com/sulianthual/bouldershower/archive/main.zip)
 
