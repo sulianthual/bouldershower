@@ -23,7 +23,7 @@ reference: https://github.com/sulianthual/bouldershower
 
 <h4>Instructions for executable: </h4>
 
-1) Download for your platform:
+1) Download for your platform (google drive links from June 27th, 2021, hopefully they are still there):
 
 linux: https://drive.google.com/file/d/1b4pqgJxhBi7ATcMh9EJVkCySzleLcD5n/view?usp=sharing
 
