@@ -1,0 +1,7 @@
+# Ignore everything in these directories
+__pycache__/*
+build/*
+dist/*
+# But dont ignore these files
+!.gitignore
+

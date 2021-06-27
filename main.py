@@ -58,7 +58,7 @@ playersoundbreak = mixer.Sound("data/bouldershower_soundbreak.wav")# when breaki
 playersounddeath = mixer.Sound("data/bouldershower_sounddeath.wav")# when hit
 playersounddeathfinal = mixer.Sound("data/bouldershower_sounddeathfinal.wav")# when dead
 
-mixer.music.set_volume(0.6)# set volume (default=1?)
+mixer.music.set_volume(0.5)# set volume (default=1?)
 playersounddash.set_volume(1)
 playersoundbreak.set_volume(0.4)
 playersounddeath.set_volume(0.6)
