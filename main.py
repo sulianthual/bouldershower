@@ -24,8 +24,14 @@ mixer.init()# initialize music
 pygame.init()# Intialize the pygame
 screen = pygame.display.set_mode((800, 600))# Define screen
 
-font = pygame.font.Font('freesansbold.ttf', 15)# text fonts
-fontbig = pygame.font.Font('freesansbold.ttf', 30)
+# relying on pygame fonts (may crash)
+# font = pygame.font.Font('freesansbold.ttf', 15)# text fonts
+# fontbig = pygame.font.Font('freesansbold.ttf', 30)
+# own font file
+font = pygame.font.Font('data/FreeSansBold.ttf', 15)# text fonts
+fontbig = pygame.font.Font('data/FreeSansBold.ttf', 30)
+
+
 
 imgstart = pygame.image.load('data/bouldershower_imgstart.png')# Load start image
 imgbackground = pygame.image.load('data/bouldershower_imgbackground.png')# background image
@@ -236,7 +242,7 @@ died = False# has died now
 manual = False# reading the manual
 
 # Initial settings (can be changed during hyper game loop)
-playermute= 1 # muted sound on-off (default on)
+playermute= 0 # muted sound on-off (default on)
 playerdifficulty= 0 # difficulty level (default easy)
 
 
