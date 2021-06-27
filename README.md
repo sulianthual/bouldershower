@@ -7,9 +7,7 @@ code by Sulian Thual (2019)
 
 Small arcade game, avoid the boulders and earn points. My first pygame.
 
-website: https://sulianthual.github.io/bouldershower/
-
-source code: https://github.com/sulianthual/bouldershower
+reference: https://github.com/sulianthual/bouldershower
 
 
 <h4>Instructions: </h4>
@@ -18,6 +16,27 @@ source code: https://github.com/sulianthual/bouldershower
 
 
 2) Run the file main.py to execute: $ python -m main.py
+
+
+3) Alternatively, you can simply download the executable (see below)
+
+
+<h4>Instructions for executable: </h4>
+
+1) Download for your platform:
+
+linux: https://drive.google.com/file/d/1b4pqgJxhBi7ATcMh9EJVkCySzleLcD5n/view?usp=sharing
+
+windows 10: https://drive.google.com/file/d/1nKnVhKYXGD7OrbvNuoJUlFt3c9hsXv5Y/view?usp=sharing
+
+mac os x: https://drive.google.com/file/d/1usHrH0kRQDYDG2Jrk5KxkEb4oS3yPF5D/view?usp=sharing
+
+2) Unzip, the execute the file "Launcher". This will launcher the game.
+
+
+3) If any issues, execute "_!Launcher" from within code/ (directly or from terminal).
+
+
 
 
 
