@@ -28,7 +28,7 @@ reference: https://github.com/sulianthual/bouldershower
 [windows 10](https://drive.google.com/file/d/1nKnVhKYXGD7OrbvNuoJUlFt3c9hsXv5Y/view?usp=sharing), 
 [mac os x](https://drive.google.com/file/d/1usHrH0kRQDYDG2Jrk5KxkEb4oS3yPF5D/view?usp=sharing).
 
-2) Unzip, the execute the file "Launcher". This will launcher the game.
+2) Unzip, the execute the file "Launcher". This will launch the game.
 
 
 3) If any issues, execute "_!Launcher" from within code/ (directly or from terminal).
